@@ -1,0 +1,10 @@
+pandas==2.2.0
+numpy==1.26.3
+tqdm==4.66.1
+torch==2.1.2
+datasets==2.16.1
+openai==0.28.1
+scikit-learn==1.4.0
+transformers==4.37.1
+evaluate==0.4.1
+seqeval==1.2.2
