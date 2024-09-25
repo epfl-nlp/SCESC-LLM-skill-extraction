@@ -1,7 +1,8 @@
 # Rethinking Skill Extraction in the Job Market Domain using Large Language Models
 
 ## Introduction
-This repo contains the code for the paper ***Rethinking Skill Extraction in the Job Market Domain using Large Language Models***, to be appeared in NLP4HR Workshop @ EACL2024.
+This repo contains the code for the paper [***Rethinking Skill Extraction in the Job Market Domain using Large Language Models***](https://aclanthology.org/2024.nlp4hr-1.3/), published at the NLP4HR Workshop @ EACL2024.
+Don't hesitate to contact us if you have questions!
 
 ## Usage
 End-to-end experiments can be run with the following command
@@ -23,3 +24,17 @@ python main.py --run --shots $NUM_SHOTS --knn --prompt_type $PROMPT_TYPE [--star
 python main.py --eval --shots $NUM_SHOTS --knn --prompt_type $PROMPT_TYPE --dataset_name $DATASET_NAME --model $MODEL
 ```
 ## Citation
+```
+@inproceedings{nguyen-etal-2024-rethinking,
+    title = "Rethinking Skill Extraction in the Job Market Domain using Large Language Models",
+    author = "Nguyen, Khanh  and
+      Zhang, Mike  and
+      Montariol, Syrielle  and
+      Bosselut, Antoine",
+    booktitle = "Proceedings of the First Workshop on Natural Language Processing for Human Resources (NLP4HR 2024)",
+    month = mar,
+    year = "2024",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.nlp4hr-1.3",
+}
+```
